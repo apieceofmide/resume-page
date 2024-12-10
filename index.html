@@ -90,7 +90,7 @@
         display: flex;
         justify-content: center; /* Horizontally */
         align-items: center;
-        margin: 100px 100px 70px 100px;
+        margin: 100px 250px 70px 250px;
       }
       .page-header {
         width: 100%;
@@ -101,7 +101,7 @@
         flex-direction: column;
         justify-content: center; /* Horizontally center the content */
         align-items: center;
-        margin: 0px 100px 70px 100px;
+        margin: 0px 300px 70px 300px;
       }
       .homepageimg {
         width: 100%;
@@ -116,6 +116,7 @@
         position: absolute;
         top: 45;
         right: 0;
+        z-index: -1;
       }
       .homepage-flowers2 {
         width: 59%;
@@ -123,13 +124,32 @@
         position: absolute;
         bottom: -300;
         left: -486;
+        z-index: -1;
       }
-      
       .homepage {
         display: flex;
         margin: auto;
         justify-content: center; /* Horizontally center the content */
         align-items: center;
+      }
+      table {
+        background-color: #FDEFC8;
+        color: #515b3a;
+        font-family: "Sen", sans serif;
+        font-size: 20px;
+        width: 100%;
+        text-align: left;
+        border-collapse: collapse;
+      }
+      th {
+        padding-bottom: 0px;
+        border-bottom: 1px solid #E7DBBA;
+        padding-left: 5px;
+      }
+      td {
+        height: 100px;
+        vertical-align: top;
+        padding-left: 5px;
       }
     </style>
   </head>
@@ -157,19 +177,35 @@
     </div>
     
      <div class="projects-in-pages">
-      <img class="page-header" src="Photography Works.png" alt="Photography Header">
+          <table>
+  <tr>
+    <th>Role</th>
+    <th>Organization</th>
+    <th>Length</th>
+  </tr>
+  <tr>
+    <td>Social Media Manager, Graphic Designer</td>
+    <td>UW Film Club</td>
+    <td>1 year, 4 months</td>
+  </tr>
+  <tr style="background-color:#EDC1BB">
+    <td>President, Graphic Designer</td>
+    <td>UW K-Dance</td>
+    <td>Upcoming</td>
+  </tr>
+</table>
+       
+       <div class="resume-button">
+         <a href="Resume - Ayomide Ibidapo.pdf">Full Resume</a>
+       </div>
       </div>
-
-    <div class="homepage">
-       <img class="homepageimg" src="Homepage.svg" alt="homepage">
-    </div>
       
     
     <div class="bottomnav">
      
        <p>
          Lets create something fun! <br>
-         mideibidapo@gmail.com <3
+         <a style="text-decoration:none;color:#FDEFC8;" href="mailto:aibidapo@uwaterloo.ca">aibidapo@uwaterloo.ca <3 </a>
        </p>
     
       
