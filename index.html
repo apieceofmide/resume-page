@@ -90,7 +90,7 @@
         display: flex;
         justify-content: center; /* Horizontally */
         align-items: center;
-        margin: 100px 250px 70px 250px;
+        margin: 100px 400px 0px 400px;
       }
       .page-header {
         width: 100%;
@@ -102,13 +102,6 @@
         justify-content: center; /* Horizontally center the content */
         align-items: center;
         margin: 0px 300px 70px 300px;
-      }
-      .homepageimg {
-        width: 100%;
-        height: auto;
-        max-height: 700px;
-        position: relative;
-        padding: 40px 30px;
       }
       .homepage-flowers1 {
         width: 30%;
@@ -122,16 +115,11 @@
         width: 59%;
         height: auto;
         position: absolute;
-        bottom: -300;
+        bottom: -450;
         left: -486;
         z-index: -1;
       }
-      .homepage {
-        display: flex;
-        margin: auto;
-        justify-content: center; /* Horizontally center the content */
-        align-items: center;
-      }
+      
       table {
         background-color: #FDEFC8;
         color: #515b3a;
@@ -142,14 +130,50 @@
         border-collapse: collapse;
       }
       th {
-        padding-bottom: 0px;
         border-bottom: 1px solid #E7DBBA;
         padding-left: 5px;
+        height: 100px;
+        vertical-align: bottom;
       }
       td {
         height: 100px;
         vertical-align: top;
         padding-left: 5px;
+      }
+      .resume-button {
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center;
+        
+        height: 88%;
+        width: 98%;
+        
+        border-radius: 100px;
+        border: 3px solid #515B3A;
+        
+        box-sizing: border-box;
+      }
+      .resume-button-2 {
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center;
+        
+        height: 100px;
+        width: 65%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-radius: 100px;
+        border: 7px solid #515B3A;
+        
+        box-sizing: border-box;
+      }
+      
+      .resume-button-link {
+        font-family: "Sen", sans serif;
+        font-size: 40px; 
+        text-decoration: none;
+        color: #515B3A;
+        font-weight: bold;
       }
     </style>
   </head>
@@ -195,8 +219,10 @@
   </tr>
 </table>
        
-       <div class="resume-button">
-         <a href="Resume - Ayomide Ibidapo.pdf">Full Resume</a>
+       <div class="resume-button-2">
+         <div class="resume-button">
+           <a class="resume-button-link" href="Resume - Ayomide Ibidapo.pdf">Full Resume</a>
+         </div>
        </div>
       </div>
       
