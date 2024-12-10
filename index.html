@@ -12,21 +12,24 @@
         padding: 0;
         overflow-x: hidden;
       }
+      p {
+        font-size: 35px;
+      }
       .topnav {
         background-color: #515b3a;
-        display: flex; /* Use flexbox for layout */
-        align-items: center; /* Vertically align items */
-        padding: 60px 20px 20px; /* Add some padding for spacing */
+        display: flex;
+        align-items: center;
+        padding: 60px 20px 20px;
         width: 100%;
         box-sizing: border-box;
       }
       .bottomnav {
         background-color: #515b3a;
-        width: 100%; /*god help me*/
-        display: flex; /* Make the bottomnav a flex container */
-        justify-content: space-between; /* Separate the text and list */
-        align-items: center; /* Center items vertically */
-        padding: 25px 20px 10px 20px; /* Add some padding for spacing */
+        width: 100%;
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 0px 20px 0px 20px;
         position: relative;
         bottom: 0;
         box-sizing: border-box;
@@ -34,7 +37,6 @@
         font-family: "Sen", sans serif;
         font-size: 20px;
         color: #FDEFC8;
-        
       }
       .top {
         background-color: #515b3a;
@@ -78,7 +80,8 @@
         padding-bottom: 5px;
       }
       .logo img {
-        max-height: 25px;
+        padding-left: 10px;
+        max-height: 40px;
         height: auto;
       }
       .socials img {
@@ -88,7 +91,7 @@
       }
        .pages {
         display: flex;
-        justify-content: center; /* Horizontally */
+        justify-content: center;
         align-items: center;
         margin: 100px 400px 0px 400px;
       }
@@ -99,7 +102,7 @@
        .projects-in-pages {
         display: flex;
         flex-direction: column;
-        justify-content: center; /* Horizontally center the content */
+        justify-content: center;
         align-items: center;
         margin: 0px 300px 70px 300px;
       }
@@ -115,11 +118,10 @@
         width: 59%;
         height: auto;
         position: absolute;
-        bottom: -450;
+        bottom: -360;
         left: -486;
         z-index: -1;
       }
-      
       table {
         background-color: #FDEFC8;
         color: #515b3a;
@@ -142,7 +144,7 @@
       }
       .resume-button {
         display: flex;
-        justify-content: center; /* Horizontally center the content */
+        justify-content: center;
         align-items: center;
         
         height: 88%;
@@ -155,7 +157,7 @@
       }
       .resume-button-2 {
         display: flex;
-        justify-content: center; /* Horizontally center the content */
+        justify-content: center;
         align-items: center;
         
         height: 100px;
@@ -167,7 +169,6 @@
         
         box-sizing: border-box;
       }
-      
       .resume-button-link {
         font-family: "Sen", sans serif;
         font-size: 40px; 
@@ -189,58 +190,52 @@
       </ul>  
     </div>
     
-      <div>
+    <div>
       <img class="homepage-flowers1" src="Sakura Right.png" alt="Flowers on right side">
     </div>
-      <div>
+    <div>
       <img class="homepage-flowers2" src="Sakura Left 1.png" alt="Flowers on left side">
     </div>
     
-     <div class="pages">
+    <div class="pages">
       <img class="page-header" src="Resume Header.png" alt="Resume Header">
     </div>
     
-     <div class="projects-in-pages">
-          <table>
-  <tr>
-    <th>Role</th>
-    <th>Organization</th>
-    <th>Length</th>
-  </tr>
-  <tr>
-    <td>Social Media Manager, Graphic Designer</td>
-    <td>UW Film Club</td>
-    <td>1 year, 4 months</td>
-  </tr>
-  <tr style="background-color:#EDC1BB">
-    <td>President, Graphic Designer</td>
-    <td>UW K-Dance</td>
-    <td>Upcoming</td>
-  </tr>
-</table>
-       
-       <div class="resume-button-2">
-         <div class="resume-button">
-           <a class="resume-button-link" href="Resume - Ayomide Ibidapo.pdf">Full Resume</a>
-         </div>
+    <div class="projects-in-pages">
+      <table>
+        <tr>
+          <th>Role</th>
+          <th>Organization</th>
+          <th>Length</th>
+        </tr>
+        <tr>
+          <td>Social Media Manager, Graphic Designer</td>
+          <td>UW Film Club</td>
+          <td>1 year, 4 months</td>
+        </tr>
+        <tr style="background-color:#EDC1BB">
+          <td>President, Graphic Designer</td>
+          <td>UW K-Dance</td>
+          <td>Upcoming</td>
+        </tr>
+      </table>
+      <div class="resume-button-2">
+        <div class="resume-button">
+          <a class="resume-button-link" href="Resume - Ayomide Ibidapo.pdf">Full Resume</a>
+        </div>
        </div>
       </div>
-      
-    
+
     <div class="bottomnav">
-     
-       <p>
-         Lets create something fun! <br>
-         <a style="text-decoration:none;color:#FDEFC8;" href="mailto:aibidapo@uwaterloo.ca">aibidapo@uwaterloo.ca <3 </a>
-       </p>
-    
-      
-        <ul class="bottomlist">
-          <li><a class="socials" href="#linkedin"><img src="Linkedin.png" alt="Linkedin Logo"></a></li>
-          <li><a class="socials" href="#twitter"><img src="Twitter.png" alt="X Logo"></a></li>
-        </ul>
-       
+      <p>
+        Lets create something fun! <br>
+        <a style="text-decoration:none;color:#FDEFC8;font-size:30px;" href="mailto:aibidapo@uwaterloo.ca">aibidapo@uwaterloo.ca <3 </a>
+      </p>
+  
+      <ul class="bottomlist">
+        <li><a class="socials" href="www.linkedin.com/in/ayomide-ibidapo-776130261"><img src="Linkedin.png" alt="Linkedin Logo"></a></li>
+        <li><a class="socials" href="https://x.com/sincerelymide"><img src="Twitter.png" alt="Twitter Logo"></a></li>
+      </ul>
     </div>
-    
   </body>
 </html>
